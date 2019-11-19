@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='TOPIC-5-RecyclerView'
