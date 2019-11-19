@@ -15,6 +15,7 @@ public class DetailsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
+        getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
         imgProfile = findViewById(R.id.imgProfile);
         tvName = findViewById(R.id.tvName);
         tvPhone = findViewById(R.id.tvPhone);
